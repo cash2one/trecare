@@ -4,5 +4,7 @@ namespace frontend\controllers;
 use yii\web\Controller;
 
 class IndexController extends Controller {
-    echo 111111;
+    public function actionTest(){
+        echo 111111;
+    }
 }
