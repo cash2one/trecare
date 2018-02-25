@@ -23,6 +23,12 @@ class m130524_201442_init extends Migration
             'status' => $this->smallInteger()->notNull()->defaultValue(10),
             'created_at' => $this->integer()->notNull(),
             'updated_at' => $this->integer()->notNull(),
+            'phone'=>$this->string()->notNull(),
+            'sex'=>$this->integer(2)->notNull(),
+            'age'=>$this->integer()->notNull(),
+            'city'=>$this->string()->notNull(),
+            'ID_card'=>$this->string()->notNull(),
+            'address'=>$this->string()->notNull(),
         ], $tableOptions);
     }
 
